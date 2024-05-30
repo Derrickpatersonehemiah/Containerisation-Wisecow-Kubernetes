@@ -1,3 +1,5 @@
+PRE REQ: The docker hub UserID and Password must be provided for success.
+
 1. Develop the Dockerfile:
 Dockerfile created
 
@@ -14,9 +16,9 @@ deploy the updated application to the Kubernetes environment
    Issuer and Ingess manifest are created (/k8s)
 
 Deliverables:
-● The Wisecow application source code : PF in the root directory
-● The Dockerfile for the application : PF in the root directory
-● Kubernetes manifest files for deployment : PF in /k8s
-● The CI/CD pipeline configuration : PF in .github\workflows
-● A GitHub Actions workflow file for facilitating Continuous Build
+1. The Wisecow application source code : PF in the root directory
+2. The Dockerfile for the application : PF in the root directory
+3. Kubernetes manifest files for deployment : PF in /k8s
+4. The CI/CD pipeline configuration : PF in .github\workflows
+5. A GitHub Actions workflow file for facilitating Continuous Build
 and Deployment (CI/CD) : PF in .github\workflows
